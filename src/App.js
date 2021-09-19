@@ -62,10 +62,12 @@ class App extends React.Component {
     );
   }
 
+  //<img className="logo" src="/google-dad-jokes-logo.png"/>
+
   render() {
     return (
       <div className="App">
-        <img className="logo" src="/google-dad-jokes-logo.png"/>
+        
         <SearchForm
           onFormSubmit={this.searchJokes}
           onSearchValueChange={this.onSearchChange}
